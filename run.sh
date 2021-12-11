@@ -9,4 +9,4 @@ mkfifo bridge > /dev/null 2>&1
 tmux split-window  "node server.js"
 tmux split-window -t {top} -h "script -f bridge" 
 tmux swap-pane -s {top-left} -t {top-right}
-tmux resize-pane -t {top-left} -x 63 -y 28
+tmux resize-pane -t {top-left} -x 87 -y 42
