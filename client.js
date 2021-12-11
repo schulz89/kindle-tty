@@ -51,9 +51,9 @@ setInterval(function() {
 }, 50);
 
 const rotarContenedor = function() {
-    contenedor.style.width = (window.innerHeight - 10) + "px";
-    contenedor.style.height = (window.innerWidth - 10) + "px";
-    contenedor.style.top = "-" + (window.innerWidth - 10) + "px";
+    contenedor.style.width = (window.innerHeight - 24) + "px";
+    contenedor.style.height = (window.innerWidth - 24) + "px";
+    contenedor.style.top = "-" + (window.innerWidth - 24) + "px";
     contenedor.className = "rotado";
     startListener();
 }

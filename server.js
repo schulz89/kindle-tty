@@ -1,6 +1,6 @@
 const PORT = 20001;
-const KINDLE_COLS = 87;
-const KINDLE_LINES = 42;
+const KINDLE_COLS = 82;
+const KINDLE_LINES = 37;
 
 const http = require('http');
 const fs = require('fs');
